@@ -1,0 +1,238 @@
+shiyanlou:~/ $ cd /home/shiyanlou/                                   [10:01:43]
+shiyanlou:~/ $ git clone https://github.com/shiyanlou/gitproject     [10:02:34]
+\u6b63\u514b\u9686\u5230 'gitproject'...
+remote: Enumerating objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3
+\u5c55\u5f00\u5bf9\u8c61\u4e2d: 100% (3/3), \u5b8c\u6210.
+\u68c0\u67e5\u8fde\u63a5... \u5b8c\u6210\u3002
+shiyanlou:~/ $ ls                                                    [10:03:18]
+Code     gitproject  lib           package.json  webpack.config.js
+Desktop  golang      node_modules  src-gen       yarn.lock
+
+R\ufffd                                                                     [10:03:shiyanlou:~/ $                                                       [10:15:41]
+shiyanlou:~/ $ git clone https://github.com/JiangJinsh/Louplus.git   [10:17:32]
+\u6b63\u514b\u9686\u5230 'Louplus'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+\u5c55\u5f00\u5bf9\u8c61\u4e2d: 100% (3/3), \u5b8c\u6210.
+\u68c0\u67e5\u8fde\u63a5... \u5b8c\u6210\u3002
+shiyanlou:~/ $ cd ~                                                  [10:24:14]
+shiyanlou:~/ $ wget https://labfile.oss.aliyuncs.com/courses/1330/linux.png
+wget https://labfile.oss.aliyuncs.com/courses/1330/python1.png
+wget https://labfile.oss.aliyuncs.com/courses/1330/python2.png
+wget https://labfile.oss.aliyuncs.com/courses/1330/git.png
+--2020-02-07 10:26:46--  https://labfile.oss.aliyuncs.com/courses/1330/linux.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 132450 (129K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201clinux.png\u201d
+
+linux.png           100%[===================>] 129.35K  --.-KB/s    in 0.01s   
+
+2020-02-07 10:26:46 (12.8 MB/s) - \u5df2\u4fdd\u5b58 \u201clinux.png\u201d [132450/132450])
+
+--2020-02-07 10:26:46--  https://labfile.oss.aliyuncs.com/courses/1330/python1.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 126099 (123K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201cpython1.png\u201d
+
+python1.png         100%[===================>] 123.14K  --.-KB/s    in 0.02s   
+
+2020-02-07 10:26:46 (6.02 MB/s) - \u5df2\u4fdd\u5b58 \u201cpython1.png\u201d [126099/126099])
+
+--2020-02-07 10:26:46--  https://labfile.oss.aliyuncs.com/courses/1330/python2.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 148762 (145K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201cpython2.png\u201d
+
+python2.png         100%[===================>] 145.28K  --.-KB/s    in 0.01s   
+
+2020-02-07 10:26:46 (14.2 MB/s) - \u5df2\u4fdd\u5b58 \u201cpython2.png\u201d [148762/148762])
+
+--2020-02-07 10:26:46--  https://labfile.oss.aliyuncs.com/courses/1330/git.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 71912 (70K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201cgit.png\u201d
+
+git.png             100%[===================>]  70.23K  --.-KB/s    in 0.001s  
+
+2020-02-07 10:26:46 (90.3 MB/s) - \u5df2\u4fdd\u5b58 \u201cgit.png\u201d [71912/71912])
+
+shiyanlou:~/ $ git add --all                                         [10:26:46]
+fatal: Not a git repository (or any of the parent directories): .git
+shiyanlou:~/ $ git add --all                                         [10:27:43]
+fatal: Not a git repository (or any of the parent directories): .git
+shiyanlou:~/ $ ls                                                    [10:30:50]
+Code     gitproject  linux.png     package.json  src-gen
+Desktop  golang      Louplus       python1.png   webpack.config.js
+git.png  lib         node_modules  python2.png   yarn.lock
+shiyanlou:~/ $ cd Louplus                                            [10:30:56]
+shiyanlou:Louplus/ (master) $ wget https://labfile.oss.aliyuncs.com/courses/1330/linux.png
+wget https://labfile.oss.aliyuncs.com/courses/1330/python1.png
+wget https://labfile.oss.aliyuncs.com/courses/1330/python2.png
+wget https://labfile.oss.aliyuncs.com/courses/1330/git.png
+--2020-02-07 10:31:28--  https://labfile.oss.aliyuncs.com/courses/1330/linux.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 132450 (129K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201clinux.png\u201d
+
+linux.png           100%[===================>] 129.35K  --.-KB/s    in 0.01s   
+
+2020-02-07 10:31:28 (12.8 MB/s) - \u5df2\u4fdd\u5b58 \u201clinux.png\u201d [132450/132450])
+
+--2020-02-07 10:31:28--  https://labfile.oss.aliyuncs.com/courses/1330/python1.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 126099 (123K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201cpython1.png\u201d
+
+python1.png         100%[===================>] 123.14K  --.-KB/s    in 0.005s  
+
+2020-02-07 10:31:28 (24.0 MB/s) - \u5df2\u4fdd\u5b58 \u201cpython1.png\u201d [126099/126099])
+
+--2020-02-07 10:31:29--  https://labfile.oss.aliyuncs.com/courses/1330/python2.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 148762 (145K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201cpython2.png\u201d
+
+python2.png         100%[===================>] 145.28K  --.-KB/s    in 0.01s   
+
+2020-02-07 10:31:29 (14.0 MB/s) - \u5df2\u4fdd\u5b58 \u201cpython2.png\u201d [148762/148762])
+
+--2020-02-07 10:31:29--  https://labfile.oss.aliyuncs.com/courses/1330/git.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 71912 (70K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201cgit.png\u201d
+
+git.png             100%[===================>]  70.23K  --.-KB/s    in 0.005s  
+
+2020-02-07 10:31:29 (13.3 MB/s) - \u5df2\u4fdd\u5b58 \u201cgit.png\u201d [71912/71912])
+
+shiyanlou:Louplus/ (master*) $ git add --all                         [10:31:29]
+shiyanlou:Louplus/ (master*) $ git status                            [10:31:45]
+\u4f4d\u4e8e\u5206\u652f master
+\u60a8\u7684\u5206\u652f\u4e0e\u4e0a\u6e38\u5206\u652f 'origin/master' \u4e00\u81f4\u3002
+\u8981\u63d0\u4ea4\u7684\u53d8\u66f4\uff1a
+  \uff08\u4f7f\u7528 "git reset HEAD <\u6587\u4ef6>..." \u4ee5\u53d6\u6d88\u6682\u5b58\uff09
+
+	\u65b0\u6587\u4ef6\uff1a   git.png
+	\u65b0\u6587\u4ef6\uff1a   linux.png
+	\u65b0\u6587\u4ef6\uff1a   python1.png
+	\u65b0\u6587\u4ef6\uff1a   python2.png
+
+shiyanlou:Louplus/ (master*) $ git config --global user.name "jiangjinsh"
+shiyanlou:Louplus/ (master*) $ git config --global user.email "15180961058@163.com"
+shiyanlou:Louplus/ (master*) $ git commit -m "first commit"          [10:34:48]
+[master ba60b0a] first commit
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git.png
+ create mode 100644 linux.png
+ create mode 100644 python1.png
+ create mode 100644 python2.png
+shiyanlou:Louplus/ (master) $ git remote add Louplus wget https://labfile.oss.aliyuncs.com/courses/1330/linux.png                  [10:38:10]
+wget https://labfile.oss.aliyuncs.com/courses/1330/python1.png
+wget https://labfile.oss.aliyuncs.com/courses/1330/python2.png
+wget https://labfile.oss.aliyuncs.com/courses/1330/git.png
+https://github.com/JiangJinsh/Louplus
+\u7528\u6cd5\uff1agit remote add [<\u9009\u9879>] <\u540d\u79f0> <\u5730\u5740>
+
+    -f, --fetch           \u6293\u53d6\u8fdc\u7a0b\u7684\u5206\u652f
+    --tags                \u6293\u53d6\u65f6\u5bfc\u5165\u6240\u6709\u7684\u6807\u7b7e\u548c\u5173\u8054\u5bf9\u8c61
+                          \u6216\u4e0d\u6293\u53d6\u4efb\u4f55\u6807\u7b7e\uff08--no-tags\uff09
+    -t, --track <\u5206\u652f>    \u8ddf\u8e2a\u7684\u5206\u652f
+    -m, --master <\u5206\u652f>   \u4e3b\u7ebf\u5206\u652f
+    --mirror[=<push|fetch>]
+                          \u628a\u8fdc\u7a0b\u8bbe\u7f6e\u4e3a\u7528\u4ee5\u63a8\u9001\u6216\u6293\u53d6\u7684\u955c\u50cf
+
+--2020-02-07 10:38:22--  https://labfile.oss.aliyuncs.com/courses/1330/python1.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 126099 (123K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201cpython1.png.1\u201d
+
+python1.png.1                       100%[=================================================================>] 123.14K  --.-KB/s    in 0.01s   
+
+2020-02-07 10:38:22 (8.87 MB/s) - \u5df2\u4fdd\u5b58 \u201cpython1.png.1\u201d [126099/126099])
+
+--2020-02-07 10:38:22--  https://labfile.oss.aliyuncs.com/courses/1330/python2.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 148762 (145K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201cpython2.png.1\u201d
+
+python2.png.1                       100%[=================================================================>] 145.28K  --.-KB/s    in 0.005s  
+
+2020-02-07 10:38:22 (27.4 MB/s) - \u5df2\u4fdd\u5b58 \u201cpython2.png.1\u201d [148762/148762])
+
+--2020-02-07 10:38:22--  https://labfile.oss.aliyuncs.com/courses/1330/git.png
+\u6b63\u5728\u89e3\u6790\u4e3b\u673a labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)... 47.110.177.159
+\u6b63\u5728\u8fde\u63a5 labfile.oss.aliyuncs.com (labfile.oss.aliyuncs.com)|47.110.177.159|:443... \u5df2\u8fde\u63a5\u3002
+\u5df2\u53d1\u51fa HTTP \u8bf7\u6c42\uff0c\u6b63\u5728\u7b49\u5f85\u56de\u5e94... 200 OK
+\u957f\u5ea6\uff1a 71912 (70K) [image/png]
+\u6b63\u5728\u4fdd\u5b58\u81f3: \u201cgit.png.1\u201d
+
+git.png.1                           100%[=================================================================>]  70.23K  --.-KB/s    in 0.003s  
+
+2020-02-07 10:38:22 (25.5 MB/s) - \u5df2\u4fdd\u5b58 \u201cgit.png.1\u201d [71912/71912])
+
+zsh: \u6ca1\u6709\u90a3\u4e2a\u6587\u4ef6\u6216\u76ee\u5f55: https://github.com/JiangJinsh/Louplus
+shiyanlou:Louplus/ (master*) $ git remote add Louplus https://github.com/JiangJinsh/Louplus                                        [10:38:22]
+shiyanlou:Louplus/ (master*) $ git push louplus master                                                                             [10:39:40]
+fatal: 'louplus' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+shiyanlou:Louplus/ (master*) $ git config --global user.name "jiangjinsh"                                                          [10:40:27]
+shiyanlou:Louplus/ (master*) $ git config --global user.email "15180961058@163.com"                                                [10:45:09]
+shiyanlou:Louplus/ (master*) $ git commit -m "first commit"                                                                        [10:45:22]
+\u4f4d\u4e8e\u5206\u652f master
+\u60a8\u7684\u5206\u652f\u9886\u5148 'origin/master' \u5171 1 \u4e2a\u63d0\u4ea4\u3002
+  \uff08\u4f7f\u7528 "git push" \u6765\u53d1\u5e03\u60a8\u7684\u672c\u5730\u63d0\u4ea4\uff09
+\u672a\u8ddf\u8e2a\u7684\u6587\u4ef6:
+	git.png.1
+	python1.png.1
+	python2.png.1
+
+\u63d0\u4ea4\u4e3a\u7a7a\uff0c\u4f46\u662f\u5b58\u5728\u5c1a\u672a\u8ddf\u8e2a\u7684\u6587\u4ef6
+shiyanlou:Louplus/ (master*) $ git commit -m "second commit"                                                                       [10:45:51]
+\u4f4d\u4e8e\u5206\u652f master
+\u60a8\u7684\u5206\u652f\u9886\u5148 'origin/master' \u5171 1 \u4e2a\u63d0\u4ea4\u3002
+  \uff08\u4f7f\u7528 "git push" \u6765\u53d1\u5e03\u60a8\u7684\u672c\u5730\u63d0\u4ea4\uff09
+\u672a\u8ddf\u8e2a\u7684\u6587\u4ef6:
+	git.png.1
+	python1.png.1
+	python2.png.1
+
+\u63d0\u4ea4\u4e3a\u7a7a\uff0c\u4f46\u662f\u5b58\u5728\u5c1a\u672a\u8ddf\u8e2a\u7684\u6587\u4ef6
+shiyanlou:Louplus/ (master*) $ git remote add origin https://github.com/JiangJinsh/Louplus                                         [10:47:11]
+fatal: \u8fdc\u7a0b origin \u5df2\u7ecf\u5b58\u5728\u3002
+shiyanlou:Louplus/ (master*) $ git remote add littlename https://github.com/JiangJinsh/Louplus.git                                 [10:48:51]
+shiyanlou:Louplus/ (master*) $ git push littlename master                                                                          [10:52:22]
+Username for 'https://github.com': JiangJinsh
+Password for 'https://JiangJinsh@github.com': 
+\u5bf9\u8c61\u8ba1\u6570\u4e2d: 6, \u5b8c\u6210.
+Delta compression using up to 4 threads.
+\u538b\u7f29\u5bf9\u8c61\u4e2d: 100% (6/6), \u5b8c\u6210.
+\u5199\u5165\u5bf9\u8c61\u4e2d: 100% (6/6), 423.78 KiB | 0 bytes/s, \u5b8c\u6210.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/JiangJinsh/Louplus.git
+   8db2279..ba60b0a  master -> master
+shiyanlou:Louplus/ (master*) $                                                                                                     [10:55:01]
